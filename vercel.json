@@ -23,7 +23,7 @@
             "dest": "/static/$1"
         },
         {
-            "src": "/(.*)",
+            "src": "vercel_app/urls",
             "dest": "vercel_app/wsgi.py"
         }
     ]
